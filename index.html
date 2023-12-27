@@ -298,6 +298,127 @@
         </div>
       </div>
     </section><!-- End About Section -->
+    <section id="achievements" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                National Level Achievement: Smart India Hackathon Grand Finale 2023
+              </h3>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row"></div>
+    <div class="slider-container">
+      <div class="slider">
+          <div class="slide">
+            <img src="assets\img\13.jpg" alt="Slide 1 Image" style="height: 400px;">
+            <center>
+              <div class="content">
+                  <h1>SIH 2023</h1>
+                  <p>Smart India Hackathon is an annual innovation challenge in India where students from various universities and colleges participate to solve real-world problems using technology. It aims to foster creativity, problem-solving, and collaboration among young minds to address the country's societal and industrial challenges.</p>
+              </div>
+              </center>
+          </div>
+          <div class="slide">
+              <img src="assets\img\6.jpg" alt="Slide 2 Image">
+              <div class="content">
+                  <h1>SIH 2023</h1>
+                  <p>
+                    Stats for 2023
+                    <br>51132 Ideas Submitted for 200 Problem Statements (PS)
+                    <br>1282 Shortlisted teams
+                    <br>5 teams shortlisted for each PS
+                    <br>1 (Our team) WON for the PS ID 1339- Automation of Drill Core Rock Sample Lithology Logging
+                </p>
+                
+              </div>
+          </div>
+          <!-- Repeat the structure for the remaining slides (3 to 6) -->
+  
+          <!-- Example for Slide 3 -->
+          <div class="slide">
+              <img src="assets\img\1.jpg" alt="Slide 3 Image">
+              <div class="content">
+                  <h1>SIH 2023</h1>
+                  <p>Interviews for DD news at SIH</p>
+              </div>
+          </div>
+          <div class="slide">
+            <img src="assets\img\4.jpg" alt="Slide 3 Image">
+            <div class="content">
+                <h1>SIH 2023</h1>
+                <p>Interviews for DD news at SIH</p>
+            </div>
+        </div>
+        <div class="slide">
+          <img src="assets\img\2.jpg" alt="Slide 3 Image">
+          <div class="content">
+              <h1>SIH 2023</h1>
+              <p>All participating teams.
+              </p>
+          </div>
+      </div>
+      <div class="slide">
+        <img src="assets\img\9.jpg" alt="Slide 3 Image">
+        <div class="content">
+            <h1>SIH 2023</h1>
+            <p>Solution: For classifying the lithology, we developed a prototype which used YoloV5- an object detection model for extracting a drill core cylinder. Once the cylinder was identified, we used a sliding window algorithm to extract every unit of that cylinder and then this unit was passed through an ensemble of DenseNet201 (Trained on Images) + SVM Classifier (Texture Feature extracted using Neighbourhood Gray Tone Difference Matrix Algorithm and the Color Feature extracted using Hue Saturation Value (HSV) scale) to classify it as either Sandstone, Limestone, Shale. The website tech stack used was HTML/ CSS/ Javascript and Django and deployed using Azure.</p>
+        </div>
+    </div>
+    <div class="slide">
+      <img src="assets\img\8.jpg" alt="Slide 3 Image">
+      <div class="content">
+          <h1>SIH 2023</h1>
+          <p>Using the YOLO V5 model to identify the geological discontinuities like fractures, joints and gaps. </p>
+      </div>
+  </div>
+  <div class="slide">
+    <img src="assets\img\10.jpg" alt="Slide 3 Image">
+    <div class="content">
+        <h1>SIH 2023</h1>
+        <p>Explainable AI (VarGrad) for understanding CNN Model</p>
+    </div>
+</div>
+<div class="slide">
+  <img src="assets\img\11.jpg" alt="Slide 3 Image">
+  <div class="content">
+      <h1>SIH 2023</h1>
+      <p>Other transfer models tried and accuracies.</p>
+  </div>
+</div>
+<div class="slide">
+  <img src="assets\img\12.jpg" alt="Slide 3 Image">
+  <div class="content">
+      <h1>SIH 2023</h1>
+      <p>Other machine learning models tried and accuracies.</p>
+  </div>
+</div>
+  
+          <!-- Continue this pattern for the remaining slides -->
+  
+      </div>
+      <button class="custom-arrow custom-prev" onclick="$('.slider').slick('slickPrev')">&#8592; </button>
+      <button class="custom-arrow custom-next" onclick="$('.slider').slick('slickNext')"> &#8594;</button>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+      $(document).ready(function(){
+          $('.slider').slick({
+              arrows: false, // Hide default arrows
+              slidesToShow: 1,
+              slidesToScroll: 1
+          });
+      });
+  </script>
+</div>
+</div>
+</div>
+</section><!-- End Portfolio Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="work" class="portfolio-mf sect-pt4 route">
